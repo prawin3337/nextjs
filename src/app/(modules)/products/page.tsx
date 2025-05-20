@@ -1,3 +1,6 @@
+export const metadata = {
+    title: "All Products"
+}
 export default function ProducntList() {
     return <ul>
         <li>Product 1</li>
