@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <ul>
       {navLinks.map(nav => {
-        return <li><Link href={nav.href}>{nav.label}</Link></li>
+        return <li key={nav.label}><Link href={nav.href}>{nav.label}</Link></li>
       })}
     </ul>
   );
